@@ -1,0 +1,777 @@
+@charset "utf-8";
+body,div,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,a,span,img,input,table,tr,th,td,b,i,em,strong,font,form,label,textarea{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif , "宋体";
+    font-size: 12px;
+    color: #333333;
+}
+html,body{
+    overflow-x:hidden;
+}
+body{
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    min-width: 990px;
+    /*height: 5015px;*/
+}
+img,input{
+    border: none;
+    vertical-align: middle;
+}
+input,button{
+    outline: none;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+b{
+    display: block;
+}
+em{
+    font-style: normal;
+}
+i{
+    display: inline-block;
+}
+span{
+    display: block;
+}
+.clear{
+    clear: both;
+    width: 100%;
+    height: 0;
+    line-height: 0;
+}
+.w1190{
+    width: 1190px;
+    margin: 0 auto;
+    min-width: 990px;
+}
+/*………………………………………………以上为清除默认样式……………………………………………………*/
+.tmall{
+    width: 100%;
+    height: 114px;
+    border-bottom: 1px solid #c8baaa;
+}
+.tmall .firstNav{
+    width: 100%;
+    height: 28px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5;
+}
+.tmall .w1190{
+    min-width: 990px;
+}
+.tmall .w1190 .tmallTitle .tmallLi{
+    float: left;
+}
+.tmall .w1190 .tmallTitle .h1{
+    width: 142px;
+    height: 64px;
+    /*background-color: lightgreen;*/
+    margin-right: 31px;
+}
+.tmall .w1190 .tmallTitle .h1 a{
+    margin-top: 23px;
+    height: 20px;
+    width: 142px;
+    background: url("img/tmall.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.tmall .w1190 .tmallTitle .elleStore{
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid #f0f0f0;
+    border-right: 1px dashed #f0f0f0;
+}
+.tmall .w1190 .tmallTitle .elleStore .elle{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.tmall .w1190 .tmallTitle .elleStore .contact .contactSpan{
+    display: inline-block;
+}
+.tmall .w1190 .tmallTitle .elleStore .contact .contactWord{
+    height: 18px;
+    line-height: 18px;
+    padding-left: 2px;
+    padding-right: 2px;
+    /*background-color: #f4c985;*/
+    border: 1px solid #e7ba77;
+    border-radius: 2px;
+    font-size: 8px;
+    font-weight: 600;
+    color: #856651;
+}
+.tmall .w1190 .tmallTitle .elleStore .contact .contactPic{
+    width: 20px;
+    height: 20px;
+    background: url("img/2.gif") no-repeat -83px -1px;
+    margin-bottom: -5px;
+    margin-left: 4px;
+}
+.tmall .w1190 .tmallTitle .server{
+    margin-top: 15px;
+    padding-left: 10px;
+    border-right: 1px solid #f0f0f0;
+}
+.tmall .w1190 .tmallTitle .server .des{
+    margin-left: 5px;
+    display: inline-block;
+}
+.tmall .w1190 .tmallTitle .server .des p{
+    color: #999999;
+    font-weight: 400;
+    letter-spacing: 7px;
+    line-height: 20px;
+}
+.tmall .w1190 .tmallTitle .server .des span{
+    color: #c40000;
+    font-weight: 400;
+    line-height: 20px;
+}
+.tmall .w1190 .tmallTitle .server .des span i{
+    width: 11px;
+    height: 11px;
+    margin-bottom: -1px;
+    background: url("img/elle.png") no-repeat 0px 0;
+    /*background-color: orange;*/
+    margin-left: 3px;
+}
+.tmall .w1190 .tmallTitle .server .more{
+    display: inline-block;
+    width: 8px;
+    height: 4px;
+    background: url("img/elle.png") no-repeat -15px 0;
+    margin-left: 3px;
+    margin-right: 12px;
+    margin-bottom: 11px;
+}
+.tmall .w1190 .tmallTitle .tel{
+    margin-top: 15px;
+    padding-left: 15px;
+}
+.tmall .w1190 .tmallTitle .tel p{
+    color: #999999;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+.tmall .w1190 .tmallTitle .tel .icon{
+
+}
+.tmall .w1190 .tmallTitle .tel .icon b{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("img/elle.png") no-repeat -25px 0;
+    margin-left: 3px;
+}
+.tmall .w1190 .tmallTitle .tel .icon i{
+    display: inline-block;
+    width: 8px;
+    height: 4px;
+    background: url("img/elle.png") no-repeat -15px 0;
+    margin-bottom: 7px;
+    margin-left: 5px;
+}
+
+.tmall .w1190 .tmallTitle .search{
+    float: right;
+    margin-top: 15px;
+}
+.tmall .w1190 .tmallTitle .search .topSearch input{
+    width: 367px;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px;
+    border: 3px solid #c40000;
+    float: left;
+    color: black;
+}
+.tmall .w1190 .tmallTitle .search .topSearch .find{
+    width: 80px;
+    height: 36px;
+    border: none;
+    float: left;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+    text-align: center;
+    vertical-align: middle;
+
+}
+.tmall .w1190 .tmallTitle .search .topSearch .searchTmall{
+    background-color: #c40000;
+    margin-right: 2px;
+}
+.tmall .w1190 .tmallTitle .search .topSearch .searchStore{
+    background-color: #333333;
+}
+.tmall .w1190 .tmallTitle .search .bottomSearch{
+    margin-top: 43px;
+}
+.tmall .w1190 .tmallTitle .search .bottomSearch a{
+    height: 14px;
+    line-height: 14px;
+    float: left;
+    padding: 0 12px 0 12px;
+    border-left: 1px solid #cccccc;
+    color: #999999;
+}
+.tmall .w1190 .tmallTitle .search .bottomSearch .fir{
+    padding-left: 0;
+    border: none;
+}
+
+
+/*……………………………………………………ELLE的title……………………………………………………*/
+#header{
+    height: 150px;
+    width: 100%;
+    min-width: 990px;
+    background: url("img/eletitle.gif") no-repeat center center;
+}
+#header .w990{
+    width: 990px;
+    height: 150px;
+    margin: 0 auto;
+    opacity: 0.3;
+}
+#header .w990 .top{
+    height: 115px;
+    width: 100%;
+}
+#header .w990 .top .one{
+    height: 100%;
+    width: 250px;
+    float: left;
+}
+#header .w990 .top .two{
+    height: 100%;
+    width: 130px;
+    float: right;
+}
+#header .w990 .bottom{
+    height: 35px;
+    width: 100%;
+}
+#header .w990 .bottom a{
+    float: left;
+    width: 80px;
+    height: 35px;
+    opacity: 0.5;
+}
+#header .w990 .bottom .one{
+    margin-left: 37px;
+}
+#header .w990 .bottom .two{
+    margin-left: 14px;
+}
+#header .w990 .bottom .three{
+    margin-left: 25px;
+}
+#header .w990 .bottom .four{
+    margin-left: 24px;
+}
+#header .w990 .bottom .five{
+    margin-left: 38px;
+}
+#header .w990 .bottom .six{
+    margin-left: 37px;
+}
+#header .w990 .bottom .seven{
+    margin-left: 31px;
+}
+#header .w990 .bottom .eight{
+    margin-left: 30px;
+}
+#header .w990 .bottom .nine{
+    margin-left: 30px;
+}
+
+
+
+
+/*………………………………………………商品信息…………………………………………*/
+#detail{
+    width: 1190px;
+    margin: 20px auto;
+    height: 609px;
+    overflow: hidden;
+}
+#detail .detailRight{
+    width: 170px;
+    height: 100%;
+    float: right;
+}
+#detail .detailRight .see{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    height: 16px;
+    line-height: 16px;
+}
+#detail .detailRight .see .seeKid{
+    float: left;
+}
+#detail .detailRight .see span{
+    float: left;
+    width: 33px;
+    height: 1px;
+    border-bottom: 1px dashed #c9c9c9;
+    margin-top: 5px;
+    margin-left: 0;
+}
+#detail .detailRight .see p{
+    width: 92px;
+    text-align: center;
+}
+#detail .detailRight .pic{
+    width: 160px;
+    overflow: hidden;
+}
+#detail .detailRight .pic img{
+    width: 160px;
+    height: 136px;
+}
+#detail .detailRight .pic span{
+    width: 160px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #404040;
+    background-color: #f7f7f6;
+    margin-bottom: 20px;
+}
+#detail .detailRight .click{
+    width: 160px;
+    height: 14px;
+}
+#detail .detailRight .click a{
+    float: left;
+    width: 24px;
+    height: 100%;
+    margin-left: 28px;
+    margin-right: 28px;
+    background: url("img/elle2.png") no-repeat;
+}
+#detail .detailRight .click .clickLeft{
+    background-position: -3px -7px;
+}
+#detail .detailRight .click .clickRight{
+    background-position: -3px -36px;
+}
+#detail .detailRight .click .clickLeft:hover{
+    background-position: -3px -68px;
+}
+#detail .detailRight .click .clickRight:hover{
+    background-position: -3px -99px;
+}
+
+
+
+#detail .detailLeft{
+    float: left;
+    /*width: 970px;*/
+    height: 609px;
+    /*background-color: lightblue;*/
+    margin-right: 30px;
+    padding-right: 19px;
+    border-right: 1px solid #f2f2f2;
+}
+#detail .detailLeft .leftLeft{
+    float: left;
+    width: 418px;
+    height: 609px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    /*background-color: #2766d5;*/
+    overflow: hidden;
+}
+#detail .detailLeft .leftLeft .bigImg{
+    border: 1px solid #f3f3f3;
+    position: relative;
+    width: 418px;
+    height: 418px;
+    overflow: hidden;
+}
+#detail .detailLeft .leftLeft .bigImg .sameAs{
+    position: absolute;
+    top: 0;
+    right: 24px;
+    width: 32px;
+    height: 32px;
+    background: url("img/elle.png") no-repeat -53px 0;
+    /*background-color: olivedrab;*/
+}
+#detail .detailLeft .leftLeft .bigImg .toBig{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 29px;
+    height: 29px;
+    background: rgba(255,255,255,0.7);
+}
+#detail .detailLeft .leftLeft .bigImg .toBig i{
+    width: 16px;
+    height: 16px;
+    margin-top: 7px;
+    margin-left: 7px;
+    background: url("img/elle.png") no-repeat -99px 0;
+}
+#detail .detailLeft .leftLeft .imgList{
+    width: 418px;
+    height: 60px;
+    /*background-color: orchid;*/
+    overflow: hidden;
+    margin-top: 22px;
+}
+#detail .detailLeft .leftLeft .imgList a{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+    background-color: black;
+    overflow: hidden;
+}
+#detail .detailLeft .leftLeft .imgList a img{
+    width: 60px;
+    height: 60px;
+}
+#detail .detailLeft .leftLeft .imgList a i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 56px;
+    height: 56px;
+    border: 2px solid black;
+}
+#detail .detailLeft .leftLeft .imgList a:hover i{
+    display: block;
+}
+#detail .detailLeft .leftLeft .bottomWord{
+    margin: 46px 0 46px 20px;
+}
+#detail .detailLeft .leftLeft .bottomWord .des{
+    float: left;
+    color: #999999;
+}
+#detail .detailLeft .leftLeft .bottomWord .des i{
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 14px;
+    height: 13px;
+    background: url("img/elle.png") no-repeat;
+}
+#detail .detailLeft .leftLeft .bottomWord .share{
+    position: relative;
+    padding-left: 16px;
+    margin-right: 24px;
+    /*background-color: peru;*/
+}
+#detail .detailLeft .leftLeft .bottomWord .share i{
+    background-position: -121px 0;
+}
+
+#detail .detailLeft .leftLeft .bottomWord .select{
+    position: relative;
+    padding-left: 16px;
+}
+#detail .detailLeft .leftLeft .bottomWord .select i{
+    background-position: -137px 0;
+}
+#detail .detailLeft .leftLeft .bottomWord .handsUp{
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+
+#detail .detailLeft .leftRight{
+    float: left;
+    width: 510px;
+    height: 609px;
+    /*background-color: olivedrab;*/
+    overflow: hidden;
+}
+#detail .detailLeft .leftRight .one h1{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+#detail .detailLeft .leftRight .one p{
+    font-size: 14px;
+    color: #dd2727;
+}
+#detail .detailLeft .leftRight .two{
+    height: 102px;
+    width: 100%;
+    margin-top: 16px;
+    background: url("img/4.png");
+}
+#detail .detailLeft .leftRight .three{
+    margin-top: 16px;
+}
+#detail .detailLeft .leftRight .three .threeKids{
+    display: inline-block;
+}
+#detail .detailLeft .leftRight .three p{
+    margin-left: 10px;
+    margin-right: 37px;
+    color: #999999;
+}
+#detail .detailLeft .leftRight .three .qiqihaer{
+    cursor: pointer;
+    margin-right: 3px;
+}
+#detail .detailLeft .leftRight .three .qiqihaer .kidss{
+    display: inline-block;
+}
+#detail .detailLeft .leftRight .three .qiqihaer i{
+    width: 14px;
+    height: 8px;
+    background: url("img/elle.png") no-repeat -156px 0;
+}
+#detail .detailLeft .leftRight .four{
+    margin-top: 18px;
+    width: 100%;
+    height: 36px;
+    /*background-color: teal;*/
+    /*color: #999999;*/
+    border-bottom: 1px dashed #c9c9c9;
+    border-top: 1px dashed #c9c9c9;
+}
+#detail .detailLeft .leftRight .four li{
+    float: left;
+    margin-top: 10px;
+    width: 169px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+#detail .detailLeft .leftRight .four .fourLi2{
+    border-right: 1px solid #e5dfda;
+    border-left: 1px solid #e5dfda;
+}
+#detail .detailLeft .leftRight .four li span{
+    display: inline-block;
+}
+#detail .detailLeft .leftRight .four li .fourWord{
+    color: #999999;
+}
+#detail .detailLeft .leftRight .four li .fourNum{
+    color: #c40000;
+}
+#detail .detailLeft .leftRight .four li .fourNumDiff{
+    color: #228800;
+}
+#detail .detailLeft .leftRight .five{
+    margin-top: 16px;
+    height: 40px;
+    width: 100%;
+    /*background-color: lightcoral;*/
+}
+#detail .detailLeft .leftRight .five span{
+    float: left;
+    width: 61px;
+    padding-left: 10px;
+    line-height: 40px;
+    color: #838383;
+}
+#detail .detailLeft .leftRight .five ul{
+    float: left;
+}
+#detail .detailLeft .leftRight .five ul li{
+    float: left;
+    margin-left: 6px;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #b8b7bd;
+}
+#detail .detailLeft .leftRight .five ul li a{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#detail .detailLeft .leftRight .five ul li a img{
+    width: 100%;
+    height: 100%;
+}
+#detail .detailLeft .leftRight .five ul li a .border{
+    display: none;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 38px;
+    height: 38px;
+    border: 2px solid #be0106;
+    padding-left: 0px;
+}
+#detail .detailLeft .leftRight .five ul li a:hover .border{
+    display: block;
+}
+#detail .detailLeft .leftRight .five ul li a .sanJiao{
+    display: none;
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    width: 12px;
+    height: 12px;
+    background:url("img/elle3.png") no-repeat -62px -16px;
+}
+#detail .detailLeft .leftRight .five ul li a:hover .sanJiao{
+    display: block;
+}
+#detail .detailLeft .leftRight .six{
+    margin-top: 12px;
+    height: 31px;
+    line-height: 31px;
+    width: 100%;
+    /*background-color: orchid;*/
+
+}
+#detail .detailLeft .leftRight .six div{
+    float: left;
+}
+#detail .detailLeft .leftRight .six .word{
+    width: 61px;
+    padding-left: 10px;
+    color: #878787;
+}
+#detail .detailLeft .leftRight .six .lines .kidDiv{
+    float: left;
+    color: #878787;
+}
+#detail .detailLeft .leftRight .six .lines input{
+    width: 39px;
+    height: 29px;
+    padding-left: 2px;
+    margin-left: 6px;
+    border: 1px solid #a7a6ac;
+}
+#detail .detailLeft .leftRight .six .lines .change{
+    margin-left: 4px;
+    margin-right: 9px;
+}
+#detail .detailLeft .leftRight .six .lines .change a{
+    display: block;
+    width: 16px;
+    height: 12px;
+    border: 1px solid #a7a6ab;
+}
+#detail .detailLeft .leftRight .six .lines .change .fir{
+     margin-bottom: 3px;
+     background: url("img/elle.png") no-repeat -180px -6px;
+ }
+#detail .detailLeft .leftRight .six .lines .change .sec{
+    background: url("img/elle.png") no-repeat -206px -6px;
+}
+#detail .detailLeft .leftRight .seven{
+    margin-top: 23px;
+    height: 40px;
+}
+#detail .detailLeft .leftRight .seven div{
+    float: left;
+    width: 180px;
+    height: 40px;
+}
+#detail .detailLeft .leftRight .seven div a{
+    width: 178px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    border: 1px solid #c40000;
+}
+#detail .detailLeft .leftRight .seven .left{
+    margin-left: 77px;
+    margin-right: 10px;
+}
+#detail .detailLeft .leftRight .seven .left a{
+    background-color: #ffeded;
+    color: #c40000;
+    text-align: center;
+}
+#detail .detailLeft .leftRight .seven .right a{
+    background-color: #c40000;
+}
+#detail .detailLeft .leftRight .seven .right a span{
+    font-size: 16px;
+    color: #fff;
+    float: left;
+}
+#detail .detailLeft .leftRight .seven .right a i{
+    float: left;
+    width: 17px;
+    height: 14px;
+    background:url("img/elle.png") no-repeat -235px 0;
+    /*margin-left: 3px;*/
+    margin-top: 12px;
+    margin-left: 40px;
+}
+#detail .detailLeft .leftRight .eight{
+    margin-top: 50px;
+}
+#detail .detailLeft .leftRight .eight p{
+    float: left;
+    height: 20px;
+    width: 77px;
+    text-align: right;
+    color: #999999;
+    display: inline-block;
+}
+#detail .detailLeft .leftRight .eight .offer{
+    float: left;
+    width: 430px;
+    overflow: hidden;
+    /*display: inline-block;*/
+}
+#detail .detailLeft .leftRight .eight ul li{
+    margin: 0 18px 12px 18px;
+    float: left;
+}
+#detail .detailLeft .leftRight .eight ul li a{
+    color: #666666;
+}
+#detail .detailLeft .leftRight .eight ul .toPay span{
+    color: #666666;
+    /*float: left;*/
+    display: inline-block;
+}
+#detail .detailLeft .leftRight .eight ul .toPay .payStyle{
+    width: 12px;
+    height: 12px;
+    margin-left: 3px;
+    /*float: left;*/
+    display: inline-block;
+}
+#detail .detailLeft .leftRight .eight ul .toPay .payStyle i{
+    width: 12px;
+    height: 6px;
+    background:url("img/elle.png") no-repeat -258px 0;
+}
+#detail .detailLeft .leftRight .eight ul li .fast i{
+    width: 16px;
+    height: 16px;
+    background: url("img/elle.png") no-repeat -276px 0;
+    margin-right: 3px;
+    float: left;
+}
+#detail .detailLeft .leftRight .eight ul li .fast span{
+    float: left;
+    color: #666666;
+}
